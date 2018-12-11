@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>2048 Game - Julien Guerin</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script> 
+</head>
+<body>
+	<p class="welcome_paragraph">Bienvenue dans le jeu 2048 de Julien Guerin</p>
+
+	<div class="game"></div>
+
+		<script type="text/javascript">
+			$(function() {
+				$(document).ready(function() {
+					$(".game").game2048()
+				})
+			});
+		</script>
+		
+	<div class="how_to_play">
+		<p>Pour jouer, utiliser les flèches de votre clavier : ← ↑ → ↓</p>
+	</div>
+</body>
+</html>

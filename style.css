@@ -1,0 +1,113 @@
+.welcome_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.how_to_play {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 18px;
+}
+
+body {
+  background-color: #0080ff;
+}
+
+#gridDisplay {
+  padding-top: 5px;
+  padding-left: 5px;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 0;
+  border-radius: 5%;
+}
+
+
+.score {
+  font-family:"jd melted";
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.gridGame {
+  position: relative;
+  display: inline-block;
+  height: 95px;
+  width: 95px;
+  background-color: #999;
+  border-radius: 15%;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+.element {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+  height: 95px;
+  width: 95px;
+  border-radius: 15%;
+  box-sizing: border-box;
+}
+
+div[color="2"] {
+  background: #000099;
+  font-size: 25px;
+}
+
+div[color="4"] {
+  background: #006699;
+  font-size: 25px;
+}
+
+div[color="8"] {
+  background: #006600;
+  font-size: 25px;
+}
+
+div[color="16"] {
+  background: #339966;
+  font-size: 25px;
+}
+
+div[color="32"] {
+  background: #FCFD37;
+  font-size: 25px;
+}
+
+div[color="64"] {
+  background: #990033;
+  font-size: 25px;
+}
+
+div[color="128"] {
+  background: #D9301B;
+  font-size: 25px;
+}
+
+div[color="256"] {
+  background: #FF6600;
+  font-size: 25px;
+}
+
+div[color="512"] {
+  background: #FF997C;
+  font-size: 25px;
+}
+
+div[color="1024"] {
+  background: #996600;
+  font-size: 25px;
+}
+
+div[color="2048"] {
+  background: #000000;
+  font-size: 25px;
+}
